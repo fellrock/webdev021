@@ -6,22 +6,22 @@ html, body {
 }
 
 header {
-	background: lightskyblue;
 	grid-area: h;	
+	border: 1px solid white;
 }
 
 main {
-	background: #4169E1;
 	grid-area: m;
+	border: 1px solid white;
 }
 
 aside {
-	background: dodgerblue;
 	grid-area: a;
+	border: 1px solid white;
 }
 
 footer {
-	background: deepskyblue;
+	
 	height: 100px;
 	grid-column-start: 1;
 	grid-column-end: 3;
@@ -34,4 +34,19 @@ footer {
 	grid-template-areas: 	" h a"
 							" m a"
 							" f f";
+}
+
+
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    text-transform: uppercase;
 }
