@@ -21,8 +21,10 @@ aside {
 }
 
 footer {
-	background: cornflowerblue;
-	grid-area: f;
+	background: deepskyblue;
+	height: 100px;
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 
 .container {
