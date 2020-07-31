@@ -6,28 +6,30 @@ html, body {
 }
 
 header {
-	background: yellow;
-	grid-column-start: 1;
-	grid-column-end: 3;
+	background: lightskyblue;
+	grid-area: h;	
 }
 
 main {
-	background: blue;
+	background: #4169E1;
+	grid-area: m;
 }
 
 aside {
-	background: green;
+	background: dodgerblue;
+	grid-area: a;
 }
 
 footer {
-	background: red;
-	height: 100px;
-	grid-column-start: 1;
-	grid-column-end: 3;
+	background: cornflowerblue;
+	grid-area: f;
 }
 
 .container {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	grid-template-rows: 20vh 70vh 10vh;	
+	grid-template-areas: 	" h a"
+							" m a"
+							" f f";
 }
