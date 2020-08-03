@@ -40,6 +40,9 @@
         document.querySelector("body").style.background = color[i]
         })
 
-        document.getElementById('primeiro').classList.add('primeiroItemMenu')    </script>
+        document.getElementById('primeiro').classList.add('primeiroItemMenu')    
+        const a = document.getElementsByTagName('a')
+        Array.from(a).forEach(e => e.classList.remove('primeiroItemMenu'))
+    </script>
 </body>
 </html>
