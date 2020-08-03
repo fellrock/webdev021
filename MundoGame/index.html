@@ -8,14 +8,37 @@
 </head>
 <body>
 
-    <div class="container">    
+    <div class="container">  
+        
     <button> Olá Felipe! Aperte Aqui </button>
-    <header>Mundo dos Games</header>
-    <main>Todo o texto vai aqui!</main>
-    <aside>Menu lateral</aside>
+   
+    <header>       
+        Mundo dos Games
+        <section>
+            <div class="item1"> Logo </div>
+
+            <div class="item2">
+            <nav>
+                <ul>
+                <li><a class="" id="primeiro">Home</a></li>
+                <li><a class="">Sobre </a></li>
+                <li><a class="">Games</a></li>
+                <li><a class="ultimo">Contato</a></li>
+                </ul>   
+            </nav>
+            </div>   
+        </section>     
+       
+    </header>
+    <main><h1 style="text-align: center; font-size: 70px;"> Mundo Game </h1></main>
+    <aside><audio controls>
+        <source src="Thunder.mp3" type="audio/ogg">
+        <source src="Thunder.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>Menu lateral</aside>
     <footer>Informações</footer>    
     </div>
-    
+</div>
     
     <script type="text/javascript">
         var color = ["#222f3e","#f368e0","#ee5253","#0abde3","#10ac84","#222f3e","#5f27cd"];
@@ -25,6 +48,19 @@
         i = i < color.length ? ++i : 0;
         document.querySelector("body").style.background = color[i]
         })
+
+        document.getElementById('primeiro').classList.add('primeiroItemMenu')    
+        
+        const a = document.getElementsByTagName('a')
+        Array.from(a).forEach(e => e.classList.remove('primeiroItemMenu'))
+        const aArray = [...a]
+        aArray.forEach(e => e.classList.add('primeiroItemMenu'))
+
+        const ultimoElemento = document.getElementsByClassName('ultimo')
+        for(let e of ultimoElemento) {
+        e.classList.remove('primeiroItemMenu')
+        }
+
     </script>
 </body>
 </html>

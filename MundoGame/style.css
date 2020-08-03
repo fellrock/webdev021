@@ -10,6 +10,24 @@ header {
 	border: 1px solid white;
 }
 
+section {
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+}
+.item1 {
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;	
+	padding: 0 100px;
+}
+.item2{
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;	
+	padding: 0 0px;
+}
+
 main {
 	grid-area: m;
 	border: 1px solid white;
@@ -36,17 +54,39 @@ footer {
 							" f f";
 }
 
+/* Navegação */
+nav {
+	float: right;
+	padding: 0 0px;
 
-
-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    background: #fff;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    text-transform: uppercase;
 }
+
+ul {
+list-style-type: none;
+margin: 10px;
+padding: 10px;
+height: 100px;
+}
+
+li {
+	float: left;
+	padding: 0 0px;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 0px 0px;
+text-decoration: none;
+padding: 20px 80px;
+}
+
+li a:hover {
+background-color: white;
+color: black;
+}
+
+.primeiroItemMenu {
+}
+
