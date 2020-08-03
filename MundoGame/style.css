@@ -12,15 +12,20 @@ header {
 
 section {
 display: flex;
-max-width: 1200px;
-	margin: 0 auto;
-	border: 1px solid #ccc;
+justify-content: space-between;
+margin: 0 auto;
 }
-.item {
+.item1 {
 	margin: 5px;
-	background: tomato;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.5em;	
+	padding: 0 100px;
+}
+.item2{
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;	
+	padding: 0 0px;
 }
 
 main {
@@ -52,34 +57,36 @@ footer {
 /* Navegação */
 nav {
 	float: right;
+	padding: 0 0px;
+
 }
 
 ul {
 list-style-type: none;
-margin: 0;
-padding: 0;
-border: 1px solid white;
+margin: 10px;
+padding: 10px;
 height: 100px;
 }
 
 li {
 	float: left;
-	
+	padding: 0 0px;
 }
 
 li a {
 display: block;
 color: white;
 text-align: center;
-padding: 50px 50px;
+padding: 0px 0px;
 text-decoration: none;
+padding: 20px 80px;
 }
 
 li a:hover {
-background-color: #111;
+background-color: white;
+color: black;
 }
 
 .primeiroItemMenu {
-border: yellow 5px solid;
 }
 
