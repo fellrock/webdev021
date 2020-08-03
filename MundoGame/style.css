@@ -67,7 +67,7 @@ li a {
 display: block;
 color: white;
 text-align: center;
-padding: 80px 155px;
+padding: 80px 150px;
 text-decoration: none;
 }
 
@@ -76,5 +76,5 @@ background-color: #111;
 }
 
 .primeiroItemMenu {
-border: yellow 2px solid;
+border: yellow 5px solid;
 }
