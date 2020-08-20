@@ -57,6 +57,19 @@ footer {
 							" f f";
 }
 
+button {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(0%, 0%);
+    padding: 15px;
+    background: #ddd;
+    border: none;
+    outline: 8px outset lightgray;
+    font-size: 18px;
+    text-transform: none;
+}
+
 /* Navegação */
 nav {
 	float: right;
