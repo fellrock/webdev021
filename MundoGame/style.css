@@ -57,10 +57,39 @@ footer {
 							" f f";
 }
 
-.cbutton1 {
+.button1 {
     position: absolute;
     top: 40%;
     left: 15%;
+    transform: translate(0%, 0%);
+    padding: 15px;
+    background: #ddd;
+    font-size: 18px;
+	text-transform: none;
+	width: 300px;
+	height: 200px;
+	background-color: aqua;
+	border: 10px solid black;
+	border-radius: 15%;
+}
+
+.button2 {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(0%, 0%);
+    padding: 15px;
+    background: #ddd;
+    border: none;
+    outline: 8px outset lightgray;
+    font-size: 18px;
+    text-transform: none;
+}
+
+.button3 {
+    position: absolute;
+    top: 40%;
+    left: 65%;
     transform: translate(0%, 0%);
     padding: 15px;
     background: #ddd;
