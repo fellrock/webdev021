@@ -28,5 +28,6 @@ i = i < color.length ? ++i : 0;
 document.getElementById("button1").childNodes[0].nodeValue="ERROR"
 document.getElementById("button2").childNodes[0].nodeValue="ERROR"
 document.getElementById("button3").childNodes[0].nodeValue="ERROR"  
-document.getElementById("button4").childNodes[0].nodeValue="ERROR"         
+document.getElementById("button4").childNodes[0].nodeValue="ERROR"
+document.querySelector("body").style.background = "#550000"
 }) 

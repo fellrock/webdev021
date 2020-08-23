@@ -95,7 +95,7 @@ footer {
     left: 65%;
     transform: translate(0%, 0%);
     padding: 15px;
-    background: rgb(221, 221, 221);
+	background: rgb(221, 221, 221);
     border: none;
     outline: 8px outset lightgray;
     font-size: 18px;
